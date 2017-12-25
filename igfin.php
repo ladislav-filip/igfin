@@ -15,7 +15,7 @@
  * @wordpress-plugin
  * Plugin Name:       IgFin
  * Plugin URI:        www.pilifs.cz/igfin
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Description:       Tento plugin poskytuje funkce pro vedení finančního deníku - portfólia akcií.
  * Version:           1.0.2
  * Author:            L. Filip
  * Author URI:        www.pilifs.cz
