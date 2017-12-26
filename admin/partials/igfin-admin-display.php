@@ -26,14 +26,12 @@ $ig_alpha_apikey = get_option('ig_alpha_apikey');
                         <label for="ig_alpha_apikey">Alpha Vantage API key</label>
                     </th>
                     <td>
-                        <input id="ig_alpha_apikey" class="regular-text" name="ig_alpha_apikey" type="text" value="<?=$ig_alpha_apikey ?>"/>
+                        <input id="ig_alpha_apikey" class="regular-text" name="ig_alpha_apikey" type="text" value="<?php echo $ig_alpha_apikey; ?>"/>
                     </td>
                 </tr>
             </tbody>
         </table>
         
-        <p class="submit">
-            <input type="submit" id="submit" class="button button-primary" value="Uložit"/>
-        </p>
+        <?php submit_button(); ?>        
     </form>
 </div>

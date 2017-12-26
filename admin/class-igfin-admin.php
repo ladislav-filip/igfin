@@ -60,8 +60,8 @@ class Igfin_Admin {
         }
         
         public function show_page() {
-            if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-                throw new Exception("POST");
+            if ($_SERVER['REQUEST_METHOD'] === 'POST') {  
+                update_option('ig_alpha_apikey', $_POST['ig_alpha_apikey']);
             }
             include plugin_dir_path( dirname( __FILE__ ) ) . 'admin/partials/igfin-admin-display.php';
         }
