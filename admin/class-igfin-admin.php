@@ -60,6 +60,9 @@ class Igfin_Admin {
         }
         
         public function show_page() {
+            if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+                throw new Exception("POST");
+            }
             include plugin_dir_path( dirname( __FILE__ ) ) . 'admin/partials/igfin-admin-display.php';
         }
 
