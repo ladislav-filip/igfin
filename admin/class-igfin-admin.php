@@ -53,8 +53,17 @@ class Igfin_Admin {
 		$this->version = $version;
 
 	}
+        
+        public function display_admin_page() {
+            add_menu_page('IgFin settings', 'IG Fin', 'manage_options', 'igfin-admin',
+                    array($this, 'show_page'), '', '3.0');
+        }
+        
+        public function show_page() {
+            include plugin_dir_path( dirname( __FILE__ ) ) . 'admin/partials/igfin-admin-display.php';
+        }
 
-	/**
+        /**
 	 * Register the stylesheets for the admin area.
 	 *
 	 * @since    1.0.0

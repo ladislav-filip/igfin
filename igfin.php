@@ -25,6 +25,15 @@
  * Domain Path:       /languages
  */
 
+
+/*
+ * Nějaké ukízkové pluginy:
+ * https://github.com/DevinVinson/WordPress-Plugin-Boilerplate/wiki/Example-Plugins
+ * 
+ * 
+ * 
+ */
+
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {
 	die;
