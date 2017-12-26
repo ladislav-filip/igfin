@@ -1,0 +1,28 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"POT-Creation-Date: 2017-12-26 12:43+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the plugin
+msgid "IgFin"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Tento plugin poskytuje funkce pro vedení finančního deníku - portfólia akcií."
+msgstr ""
+
+#. Author of the plugin
+msgid "L. Filip"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "www.pilifs.cz"
+msgstr ""
+
+msgid "Vytvořeno"
+msgstr ""

@@ -57,6 +57,8 @@ class Igfin_Admin {
         public function display_admin_page() {
             add_menu_page('IgFin settings', 'IG Fin', 'manage_options', 'igfin-admin',
                     array($this, 'show_page'), '', '3.0');
+            add_menu_page('IgFin akcie', 'Akcie', 'manage_options', 'igfin-admin-akcie',
+                    array($this, 'show_akcie'), '', '3.1');
         }
         
         public function show_page() {
@@ -64,6 +66,11 @@ class Igfin_Admin {
                 update_option('ig_alpha_apikey', $_POST['ig_alpha_apikey']);
             }
             include plugin_dir_path( dirname( __FILE__ ) ) . 'admin/partials/igfin-admin-display.php';
+        }
+        
+        public function show_akcie() {            
+            require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/class-igfin-akcie.php';            
+            new class_igfin_akcie();
         }
 
         /**

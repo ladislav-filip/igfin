@@ -9,14 +9,14 @@
  * that starts the plugin.
  *
  * @link              www.pilifs.cz
- * @since             1.0.2
+ * @since             1.0.4
  * @package           Igfin
  *
  * @wordpress-plugin
  * Plugin Name:       IgFin
  * Plugin URI:        www.pilifs.cz/igfin
  * Description:       Tento plugin poskytuje funkce pro vedení finančního deníku - portfólia akcií.
- * Version:           1.0.2
+ * Version:           1.0.4
  * Author:            L. Filip
  * Author URI:        www.pilifs.cz
  * License:           GPL-2.0+
@@ -44,7 +44,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define( 'IGFIN_VERSION', '1.0.2' );
+define( 'IGFIN_VERSION', '1.0.4' );
 
 /**
  * The code that runs during plugin activation.
